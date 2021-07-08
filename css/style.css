@@ -1,0 +1,139 @@
+body {
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.name {
+    margin-top: 37px;
+    font-size: 80px;
+    line-height: 1.325;
+    border-bottom: 2px solid #000;
+}
+
+.photo {
+    margin-top: 48px;
+}
+
+.text1 {
+    margin-top: 48px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+}
+
+.title h2 {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: bold;
+    color: #a00404;
+    margin-left: 16px;
+}
+
+.m-0 {
+    margin-top: 24px;
+}
+
+.text2, .text3, .sk-box, .footer {
+    margin-top: 72px;
+}
+
+.sk-box {
+    background-color: #415165;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.sk-box .title {
+    border-bottom: 1px solid #fff;
+    justify-content: center;
+    width: 996px;
+    text-align: center;
+}
+
+.sk-box ul {
+    border-left: 1px solid #fff;
+    margin-top: 37px;
+    margin-bottom: 12px;
+}
+
+.sk-box ul li {
+    width: 192px;
+    padding-left: 24px;
+}
+
+.sk-box .title p {
+    color: #fff;
+}
+
+.m-1 {
+    margin-top: 16px;
+}
+
+.m-2 {
+    margin-top: 8px;
+}
+
+.m-3 {
+    margin-top: 24px;
+}
+
+.work-exp ul {
+    padding-left: 24px;
+    border-left: 1px solid #96a9c4;
+    margin-left: 24px;
+}
+
+.footer {
+    background-color: #415165;
+    padding: 24px;
+}
+
+.footer .title, .footer .title p, .footer ul li, .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .title {
+    border-bottom: 1px solid #fff;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    width: 192px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.footer ul {
+    text-align: center;
+}
+
+.t-0 {
+    font-size: 20px;
+    line-height: 30px;
+}
